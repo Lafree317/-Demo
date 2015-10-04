@@ -15,6 +15,7 @@
 		525B460F1BBE853C001EE6A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525B460E1BBE853C001EE6A3 /* Images.xcassets */; };
 		525B46121BBE853C001EE6A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525B46101BBE853C001EE6A3 /* LaunchScreen.xib */; };
 		525B461E1BBE853C001EE6A3 /* ______DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525B461D1BBE853C001EE6A3 /* ______DemoTests.m */; };
+		52845F5A1BC0E67700D88FC8 /* TopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52845F591BC0E67700D88FC8 /* TopScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		525B46171BBE853C001EE6A3 /* 我的世界资讯DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "我的世界资讯DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		525B461C1BBE853C001EE6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525B461D1BBE853C001EE6A3 /* ______DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______DemoTests.m"; sourceTree = "<group>"; };
+		52845F581BC0E67700D88FC8 /* TopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopScrollView.h; sourceTree = "<group>"; };
+		52845F591BC0E67700D88FC8 /* TopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				525B46031BBE853C001EE6A3 /* AppDelegate.m */,
 				525B46081BBE853C001EE6A3 /* ViewController.h */,
 				525B46091BBE853C001EE6A3 /* ViewController.m */,
+				52845F581BC0E67700D88FC8 /* TopScrollView.h */,
+				52845F591BC0E67700D88FC8 /* TopScrollView.m */,
 				525B460B1BBE853C001EE6A3 /* Main.storyboard */,
 				525B460E1BBE853C001EE6A3 /* Images.xcassets */,
 				525B46101BBE853C001EE6A3 /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 				525B46041BBE853C001EE6A3 /* AppDelegate.m in Sources */,
 				525B46071BBE853C001EE6A3 /* ______Demo.xcdatamodeld in Sources */,
 				525B460A1BBE853C001EE6A3 /* ViewController.m in Sources */,
+				52845F5A1BC0E67700D88FC8 /* TopScrollView.m in Sources */,
 				525B46011BBE853C001EE6A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +426,7 @@
 				525B46231BBE853C001EE6A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525B46241BBE853C001EE6A3 /* Build configuration list for PBXNativeTarget "我的世界资讯DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				525B46261BBE853C001EE6A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
